@@ -1,0 +1,68 @@
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: var(--bg-color);
+    width: 19rem;
+    border-right: var(--border);
+    height: 100%;
+    padding: 1rem;
+    text-align: center;
+    /* display: block; */
+}
+.header .user img {
+    margin: 1rem 0;
+    border: 1rem solid transparent;
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    box-shadow: var(--box-shadow);
+}
+.header .user h3 {
+    color: var(--black);
+    font-size: 1.7rem;
+}
+.header .user p {
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: bold;
+}
+nav{
+     display: block;
+}
+.header .navbar{
+    padding-top: 0.8rem;
+}
+header .navbar .link{
+    list-style: none;
+    display: block;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    font-size: 1.5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--black);
+}
+header .navbar .link:hover{
+    color: var(--blue);
+    box-shadow: var( --box-shadow-inset);
+}
+@media screen and (max-width: 991px){
+    .header.active {
+     
+        left: 0%;
+        transition: .4s linear;
+    }
+    .header {
+        left: -110%;
+        transition: .4s linear;
+    }
+    }
+    @media screen and (max-width: 991px){
+        .header{
+            width:100%;
+            border-right: 0;
+        }
+    }

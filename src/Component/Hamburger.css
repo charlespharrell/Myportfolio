@@ -1,0 +1,27 @@
+.hamwrapper {
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+.hamwrapper {
+    display: initial;
+    position: fixed;
+    top: .5rem;
+    left: 1rem;
+    padding: 0rem;
+    z-index: 1000;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    color: var(--black);
+    background: var(--bg-color);
+    color: var(--blue);
+}
+
+}
+
