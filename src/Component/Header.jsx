@@ -2,7 +2,7 @@ import React from 'react'
 import { HashLink as Link} from 'react-router-hash-link'
 import './Header.css'
 
-function Header({imgsrc, header}) {
+function Header({imgsrc, header, }) {
   return (
     <div>
         <header className={header}>
@@ -15,10 +15,10 @@ function Header({imgsrc, header}) {
     
       <nav  className='navbar'>
            <Link className='link' to='#home'  smooth><li>Home</li></Link> 
-            <Link className='link' to='#about' smooth> <li>About</li> </Link>
-            <Link className='link' to='#skills' smooth> <li>Skills</li> </Link>
+            <Link className='link' to='#about'  smooth> <li>About</li> </Link>
+            <Link className='link' to='#skills'  smooth> <li>Skills</li> </Link>
             <Link className='link' to='#portfolio' smooth><li>Portfolio</li> </Link>
-            <Link className='link' to='#contact' smooth><li>Contact</li> </Link>
+            <Link className='link' to='#contact'  smooth><li>Contact</li> </Link>
             
         </nav>
       

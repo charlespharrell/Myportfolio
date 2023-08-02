@@ -27,6 +27,10 @@
 .skills .box-container .box:hover::before{    
     clip-path: circle(100%);
 }
+.skills .box-container .box:hover{
+    color: white;
+
+}
 .skills .box-container img{
     width: 8rem;
 
@@ -34,7 +38,7 @@
 .skills .box-container .box h3 {
     font-size: 2rem;
     padding-bottom: 1rem;
-    color: var(--black);
+    /* color: var(--black); */
 }
 @media screen and (max-width: 450px){
     .skills .box-container .box {

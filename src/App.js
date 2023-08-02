@@ -18,14 +18,12 @@ import {AiOutlineClose} from 'react-icons/ai'
 function App() {
 
   const [imgsrc, setimgsrc]=useState("./image/FB_IMG_1562194368478.jpg")
-  const[social, setsocial]=useState('social')
-  const [BsCircle, setBscircle]=useState('BsCircle')
   const[icon, setIcon]=useState(<FaMoon className='FaTheme'/>)
   const[active, setactive]=useState(':root')
   const[isclicked, setisClicked]=useState(false)
 
   const[ham_icon, sethamicon]= useState(<GiHamburgerMenu className='hamburger'/>)
-  const[hamwrapper, sethamwrapper]=useState('hamwrapper')
+  
   const [header, setheader]= useState('header')
   const[ismenuclicked, setismenuclicked]=useState(false)
 
@@ -46,6 +44,7 @@ function App() {
     }
     }
 
+
     const handleclickmenu=(e)=>{ 
       e.preventDefault()
       setismenuclicked(!ismenuclicked)
@@ -59,15 +58,17 @@ function App() {
     }
     }
 
+   
+
   return (
 
     <Router>
     <div className="App">
       <body className={active}> 
-      <Hamburger handleclickmenu={handleclickmenu} ham_icon={ham_icon} hamwrapper={hamwrapper}/> 
+      <Hamburger handleclickmenu={handleclickmenu} ham_icon={ham_icon} /> 
       <Header imgsrc={imgsrc} header={header} />
-      <Theme BsCircle={BsCircle} icon={icon} handleClick={handleClick}/>
-      <Home social={social}/>
+      <Theme  icon={icon} handleClick={handleClick}/>
+      <Home />
       <About/>
       <Skill/>
       <Portfolio/>
