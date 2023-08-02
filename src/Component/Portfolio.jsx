@@ -15,7 +15,7 @@ function Portfolio() {
             <p>This is a website that shows different parts of the galaxy and professionals 
                in the field of space traveling.</p>
             <h4 >Stack Used: React.js</h4>
-            <a href="https://spacetravelapp.netlify.app/destination">Visit demo</a>
+            <a href="https://spacetravelapp.netlify.app/">Visit demo</a>
           </div>
         </div>
 
