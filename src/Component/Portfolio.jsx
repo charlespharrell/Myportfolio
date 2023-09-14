@@ -8,14 +8,27 @@ function Portfolio() {
 
       <div class="box-container">
 
-        <div class="box">
-          <img src="./image/spaceimg.PNG" alt="" />
+      <div class="box">
+          <img src="./image/ecommerce-shoe.PNG" alt="" />
           <div class="content">
-            <h3>Space Tourism Website</h3>
-            <p>This is a website that shows different parts of the galaxy and professionals 
-               in the field of space traveling.</p>
+            <h3>Ecommerce Shoes-website</h3>
+            <p>This is a website where one can shop for shoes, and then add them to the cart.
+              The shoes can be sorted out in different categories based on proces, colors, and even shoe type           
+            </p>
             <h4 >Stack Used: React.js</h4>
-            <a href="https://spacetravelapp.netlify.app/">Visit demo</a>
+            <a href="https://shoe-website-theta.vercel.app/">Visit demo</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src=".\image\snake game.PNG" alt="" />
+          <div class="content">
+            <h3>Snake Game</h3>
+            <p>This web game is just like the regular snake game we play on our phone where the snake moves
+              to eat its food, and if it hits itself, its gameover
+            </p>
+            <h4 >Stack Used: JavaScript</h4>
+            <a href="https://snake-game-sayg.vercel.app/">Visit demo</a>
           </div>
         </div>
 
@@ -29,6 +42,17 @@ function Portfolio() {
             <a href="https://country-search-phi.vercel.app/" >Visit demo</a>
           </div>
         </div>
+
+        <div class="box">
+          <img src="./image/spaceimg.PNG" alt="" />
+          <div class="content">
+            <h3>Space Tourism Website</h3>
+            <p>This is a website that shows different parts of the galaxy and professionals 
+               in the field of space traveling.</p>
+            <h4 >Stack Used: React.js</h4>
+            <a href="https://spacetravelapp.netlify.app/">Visit demo</a>
+          </div>
+        </div>       
 
         <div class="box">
         <img src="./image/guessingimg.PNG" alt="" />
@@ -52,19 +76,6 @@ function Portfolio() {
             <a href="https://myportfolio-flax-eight.vercel.app/">Visit demo</a>
           </div>
         </div>
-
-        <div class="box">
-            <img src="./image/shoewebsiteimg.PNG" alt="" />
-          <div class="content">
-            <h3>E-commerce web page</h3>
-            <p >An e-commerce web page where shoes are sold and 
-                the quantity of shoes needed is added to the cart. 
-             </p>
-             <h4 >Stack Used: JavaScript,</h4>
-            <a href="#">Visit demo</a>
-          </div>
-        </div>
-
        
       </div>
     </section>

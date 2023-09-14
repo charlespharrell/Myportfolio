@@ -30,7 +30,7 @@ function About() {
         <div class="content">
           <h3>my name is <span>Charles Udenwoke</span></h3>
           <p>
-          I Am A Front End Software Engineer With A Vast Array Of Knowledge In languages 
+          I Am A Frontend Software Engineer With A Vast Array Of Knowledge In languages 
             And Frameworks Used In Building, Designing
              And Making Interractive
             And Reponsive, Web Application Programs. 

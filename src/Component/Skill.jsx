@@ -37,11 +37,16 @@ function Skill() {
         <div class="box">
           <img src="./image/react-icon-removebg-preview.png" alt="" className='icon-image' />
           <h3>React</h3>
-          </div>
+        </div>
 
-          <div class="box">
+        <div class="box">
             <img src="./image/git-icon-removebg-preview.png" alt="" className='icon-image' />
             <h3>Git</h3>        
+        </div>
+
+        <div class="box">
+            <img src=".\image\typescript-img.png" alt="" className='icon-image' />
+            <h3>TypeScript</h3>        
         </div>
 
       </div>

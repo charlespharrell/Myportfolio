@@ -9,8 +9,10 @@
     padding:1.5rem;
 }
 .contact form p{
-    text-align: center;
+    text-align:start;
+    color:var(--black) ;
     text-transform: lowercase;
+    margin-bottom: 1rem;
 }
 
 .contact form .box{

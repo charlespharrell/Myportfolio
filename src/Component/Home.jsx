@@ -7,10 +7,10 @@ function Home() {
       <section class="home" id="home">
       <div class="content">
         <h3>CHARLES UDENWOKE</h3>
-        <p>I am a Front End Software Engineer</p>
+        <p>I am a Frontend Software Engineer</p>
         <p>+2349067131362</p>
         <p>charlesudenwoke011@gmail.com</p>
-        <a href="#" class="btn">download CV</a>
+        <a href ='https://docs.google.com/document/d/1DFhpi2aHvOMTDRynhRaM0UysYLnnHTOq/edit?usp=sharing&ouid=106768816007155417987&rtpof=true&sd=true' class="btn">download CV</a>
       </div>
 
       <div class="share">
